@@ -27,26 +27,6 @@ class AuthorSpider(scrapy.Spider):
 
         yield items
 
-# process = CrawlerProcess(get_project_settings())
-
-
-# process.crawl('author','http://quotes.toscrape.com/')
-# process.start()
-
-#         # def extract_with_css(query):
-#         #     return response.css(query).get(default='').strip()
-        
-
-#         #yield {
-#             # 'name': extract_with_css('h3.author-title::text'),
-#             # 'birthdate': extract_with_css('.author-born-date::text'),
-#             # 'bio': extract_with_css('.author-description::text'),
-#             # }
-
-
-
-            
-#     # follow links to author pages
 
 
 
